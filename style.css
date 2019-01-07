@@ -1,0 +1,74 @@
+   
+.s1 {width: 10%;}
+.s2 {width: 20%;}
+.s3 {width: 30%;}
+.s4 {width: 40%;}
+.s5 {width: 50%;}
+.s6 {width: 60%;}
+.s7 {width: 70%;}
+.s8 {width: 80%;}
+.s9 {width: 90%;}
+.s10 {width: 100%;}
+
+@media only screen and (min-width 700px) {
+
+.s1_m {width: 10%;}
+.s2_m {width: 20%;}
+.s3_m {width: 30%;}
+.s4_m {width: 40%;}
+.s5_m {width: 50%;}
+.s6_m {width: 60%;}
+.s7_m {width: 70%;}
+.s8_m {width: 80%;}
+.s9_m {width: 90%;}
+.s10_m {width: 100%;}
+    
+.s5_m{height: 20vh;}
+.allImg{width: 50%; float: right}
+
+}
+    
+@media only screen and (min-width 992px){   
+.s1_l {width: 10%;}
+.s2_l {width: 20%;}
+.s3_l {width: 30%;}
+.s4_l {width: 40%;}
+.s5_l {width: 50%;}
+.s6_l {width: 60%;}
+.s7_l {width: 70%;}
+.s8_l {width: 80%;}
+.s9_l {width: 90%;}
+.s10-l {width: 100%;}
+}
+
+body {
+    margin: 0;
+}
+
+.unimpImg {
+    display: none;
+    
+}
+
+.allImg {
+    width: 90%;
+    height: 48vh;
+    margin: auto;
+    margin-bottom: 2vh;
+    margin-top: 2vh;
+    background-color: darkcyan;
+}
+
+.par {
+    width: 90%;
+    height: 10vh;
+    margin-left: 5%;
+    margin-right: 5%;
+    margin-bottom: 2vh;
+    background-color: bisque;
+}
+
+.allImg p {
+    font-size: 50px;
+    margin: 0;
+}
